@@ -22,9 +22,22 @@ public class ReinoAnimal {
         gato.Reproduccion();
         gato.Respiracion();
 
+
         gato.Anecdota();    
         
+
+       gato.Anecdota();    
+
         
+        System.out.println("");
+        System.out.println("loba");
+        Loba Loba = new Loba("carnivoro",430,"Macho","Pulmones");
+        gato.Alimentacion();
+        gato.Comunicacion();
+        gato.Movimiento();
+        gato.Reproduccion();
+        gato.Respiracion();
+        gato.Anecdota();  
 
   
 
@@ -35,8 +48,7 @@ public class ReinoAnimal {
         conejo.Movimiento();
         conejo.tipo_orejas();
         
-     
-    
+        
 
         gato.Anecdota();
 
@@ -114,7 +126,7 @@ public class ReinoAnimal {
         cebra.Comunicacion();
         cebra.Anecdota();
         
-        Caballo caballo=new Caballo("Esqueleto felino",300,"Macho","Pulmonar","Animalia","Hervivoro","Equidae","Equus","E. Ferus");
+        Caballo caballo=new Caballo("Esqueleto felino",350,"Macho","Pulmonar","Animalia","Hervivoro","Equidae","Equus","E. Ferus");
         caballo.Anecdota();
         caballo.Raza();
         caballo.Color();
@@ -126,3 +138,5 @@ public class ReinoAnimal {
      }
     
 
+
+    

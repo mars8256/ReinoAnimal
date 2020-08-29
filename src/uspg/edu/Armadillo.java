@@ -25,17 +25,29 @@ public class Armadillo extends Mamifero {
    
     
     
+<<<<<<< HEAD
     
+=======
+   
+>>>>>>> 47342717f670ecfbbc23e384c237a1c5f6af73d4
     public void Alimentacion() {
         System.out.println("Como lombrices y muchas otas cosas");
     }
 
+<<<<<<< HEAD
     
+=======
+   
+>>>>>>> 47342717f670ecfbbc23e384c237a1c5f6af73d4
     public void Comunicacion() {
         System.out.println("Me comunico con un lenguje muy especial");
     }
 
+<<<<<<< HEAD
  
+=======
+    
+>>>>>>> 47342717f670ecfbbc23e384c237a1c5f6af73d4
     public void Movimiento() {
         System.out.println("Uno de mis movimientos es haceme una "
                 + "bolita para confundir a mis amenasas");
