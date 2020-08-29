@@ -22,7 +22,7 @@ public class ReinoAnimal {
         gato.Reproduccion();
         gato.Respiracion();
         gato.Anecdota();
-<<<<<<< HEAD
+        
         
         canguro canguro = new canguro("Esqueleto Mamifero",240 ,"Macho","Pulmones");
         canguro.Alimentacion();
@@ -32,7 +32,7 @@ public class ReinoAnimal {
         canguro.Respiracion();
         canguro.Anecdota();
         
-=======
+
 
         System.out.println(" ");
         System.out.println("Hiena: ");
@@ -52,8 +52,20 @@ public class ReinoAnimal {
         jaguar.habitat();
         jaguar.estado();
         jaguar.datocurioso();
+
         jaguar.datos();
->>>>>>> cee6586a8e06f4688613b92c007c2c6d1c34aae0
+
+
+        jaguar.datos(); 
+        
+        Cebra cebra = new Cebra ("Esqueleto Vertebral",7,"Macho","juegan");
+        cebra.Alimentacion();
+        cebra.Juegan();
+        cebra.Comunicacion();
+        cebra.Anecdota();
+  
+
+
     }
     
 }
