@@ -21,17 +21,17 @@ public Rinoceronte(String esqueleto, int vertebras, String sexo, String tipo_res
     
     
     
-    @Override
+
     public void Alimentacion() {
         System.out.println("soy herbívoros");
     }
 
-    @Override
+
     public void Comunicacion() {
         System.out.println("El uso de la respiración de comunicarse");
     }
 
-    @Override
+
     public void Movimiento() {
         System.out.println("en puntillas: poseen tres dedos en sus patas"
                 + " con una almohadilla suave que les ayuda a amortiguar su enorme peso.");
