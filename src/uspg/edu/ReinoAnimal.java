@@ -49,7 +49,18 @@ public class ReinoAnimal {
         jaguar.habitat();
         jaguar.estado();
         jaguar.datocurioso();
+
         jaguar.datos();
+
+        jaguar.datos(); 
+        
+        Cebra cebra = new Cebra ("Esqueleto Vertebral",7,"Macho","juegan");
+        cebra.Alimentacion();
+        cebra.Juegan();
+        cebra.Comunicacion();
+        cebra.Anecdota();
+  
+
 
     }
     
