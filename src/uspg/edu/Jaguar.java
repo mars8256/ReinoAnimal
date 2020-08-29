@@ -27,6 +27,6 @@ public class Jaguar extends Mamifero {
     }
     public void datocurioso(){
               System.out.println("*******Dato Cuerioso********");
-        System.out.println("Soy muy parecido a otro felino grando, al leopardo, la diferencia es que soy más grande y el habita en el continete africano");
+        System.out.println("Soy muy parecido a otro felino grando, al leopardo, la diferencia es que soy más grande y el habita en el continete africano.");
     }
 }
