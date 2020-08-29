@@ -22,6 +22,12 @@ public class ReinoAnimal {
         gato.Reproduccion();
         gato.Respiracion();
         gato.Anecdota();
+        Gorila gorila = new Gorila ("Esqueleto",60,"macho","pulmones");
+        gorila.Alimentacion();
+        gorila.Comunicacion();
+        gorila.Movimiento();
+        gorila.peleas();
+        gorila.Anecdota();
     }
     
 }
