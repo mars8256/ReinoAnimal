@@ -12,15 +12,8 @@ package uspg.edu;
 public class Hiena extends Mamifero {
 
     public Hiena(String esqueleto, int vertebras, String sexo, String tipo_respiracion) {
-        super(esqueleto, 
-                vertebras, 
-                sexo, 
-                tipo_respiracion, 
-                "Mamalia", 
-                "Carnivoro", 
-                "Felidae", 
-                "Felis", 
-                "Felis Silvestris");
+        super(esqueleto, vertebras, sexo, tipo_respiracion, "Mamalia", "Carnivoro", "Felidae",  
+                "Felis", "Felis Silvestris");
     }
 
     
@@ -28,22 +21,26 @@ public class Hiena extends Mamifero {
     
     @Override
     public void Alimentacion() {
-        System.out.println("Soy carivoro");
+        System.out.println("Soy un carroñero oportunista");
     }
 
     @Override
     public void Comunicacion() {
-        System.out.println("Miau, Miau");
+        System.out.println("ruidos específicos, posturas y señales");
     }
 
     @Override
     public void Movimiento() {
-        System.out.println("Soy un digitigrado ya que camino directamente "
-                + "sobre los dedos de mis patitas");
+        System.out.println("Camino directamente de mis cuatro patas, sin utilizar ningún otro metodo para"
+                + "transportarme y llegar a mi destino");
     }
     
-    public void Ronronea(){
-        System.out.println("Grrrr miau! Grrrr miau!");
+    public void Risa(){
+        System.out.println("Aaa!, Aaa!, Ohh");
+    }
+    
+    public void Aspecto(){
+        System.out.println("Marron con manchas negras");
     }
     
     public void Anecdota(){
