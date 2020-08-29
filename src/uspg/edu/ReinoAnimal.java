@@ -22,6 +22,7 @@ public class ReinoAnimal {
         gato.Reproduccion();
         gato.Respiracion();
         gato.Anecdota();
+<<<<<<< HEAD
          
         Oso oso = new Oso("Esqueleto silvestre",210, "Macho","Pulmones");
         oso.Alimentacion();
@@ -29,6 +30,28 @@ public class ReinoAnimal {
         oso.Movimiento();
         oso.Produccion();
         oso.Anecdota();
+=======
+
+        System.out.println(" ");
+        System.out.println("Hiena: ");
+        Hiena hiena = new Hiena("Esqueleto Feliformia", 330, "Macho", "Pulmones");
+        hiena.Alimentacion();
+        hiena.Comunicacion();
+        hiena.Movimiento();
+        hiena.Reproduccion();
+        hiena.Respiracion();
+        hiena.Anecdota();
+        hiena.Aspecto();
+        hiena.Risa();
+        
+
+        Jaguar jaguar=new Jaguar("Esqueleto felino",200,"Macho","Pulmonar","Mamalia","Carnivoro","Felidae","Felis","Felis Silvestris");
+        jaguar.alimentacion();
+        jaguar.habitat();
+        jaguar.estado();
+        jaguar.datocurioso();
+        jaguar.datos();
+>>>>>>> cee6586a8e06f4688613b92c007c2c6d1c34aae0
     }
     
      }
