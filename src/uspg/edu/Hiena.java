@@ -44,6 +44,7 @@ public class Hiena extends Mamifero {
     }
     
     public void Anecdota(){
+        System.out.println("");
         System.out.println("------------------------------------------------------------------------");
         System.out.println("---------Datos Curiosos---------");
         System.out.println("Las hienas no es que se esten riendo, si no es que el sonido chillón que emiten indica que están nerviosas, lo hacen cuando se"

@@ -23,15 +23,18 @@ public class ReinoAnimal {
         gato.Respiracion();
         gato.Anecdota();
         
-        /*
-        Hiena hiena = new Hiena();
+        System.out.println(" ");
+        System.out.println("Hiena: ");
+        Hiena hiena = new Hiena("Esqueleto Feliformia", 330, "Macho", "Pulmones");
         hiena.Alimentacion();
         hiena.Comunicacion();
         hiena.Movimiento();
         hiena.Reproduccion();
         hiena.Respiracion();
         hiena.Anecdota();
-        */
+        hiena.Aspecto();
+        hiena.Risa();
+        
     }
     
 }
