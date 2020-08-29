@@ -21,7 +21,46 @@ public class ReinoAnimal {
         gato.Movimiento();
         gato.Reproduccion();
         gato.Respiracion();
+<<<<<<< HEAD
+        gato.Anecdota();    
+        
+        
+
+  
+
+        System.out.println(" ");
+        System.out.println("conejo");
+        Conejo conejo = new Conejo("vegetariano", 340, "salto", "pulmones");
+        conejo.Alimentacion();
+        conejo.Movimiento();
+        conejo.tipo_orejas();
+        }
+     
+    }
+=======
         gato.Anecdota();
+<<<<<<< HEAD
+<<<<<<< HEAD
+         
+        Oso oso = new Oso("Esqueleto silvestre",210, "Macho","Pulmones");
+        oso.Alimentacion();
+        oso.Comunicacion();
+        oso.Movimiento();
+        oso.Produccion();
+        oso.Anecdota();
+=======
+        
+        
+        canguro canguro = new canguro("Esqueleto Mamifero",240 ,"Macho","Pulmones");
+        canguro.Alimentacion();
+        canguro.Comunicacion();
+        canguro.Movimiento();
+        canguro.Reproduccion();
+        canguro.Respiracion();
+        canguro.Anecdota();
+        
+
+=======
 <<<<<<< HEAD
         
         System.out.println(" ");
@@ -33,7 +72,17 @@ public class ReinoAnimal {
         ar.Movimiento();
         ar.Anecdota();
         ar.Vivienda();
+>>>>>>> 698fefc07f097967da50727308f0ef73e4d5c489
 =======
+>>>>>>> 698fefc07f097967da50727308f0ef73e4d5c489
+
+        Gorila gorila = new Gorila ("Esqueleto",60,"macho","pulmones");
+        gorila.Alimentacion();
+        gorila.Comunicacion();
+        gorila.Movimiento();
+        gorila.peleas();
+        gorila.Anecdota();
+
 
         System.out.println(" ");
         System.out.println("Hiena: ");
@@ -53,6 +102,22 @@ public class ReinoAnimal {
         jaguar.habitat();
         jaguar.estado();
         jaguar.datocurioso();
+<<<<<<< HEAD
+<<<<<<< HEAD
+        jaguar.datos();
+>>>>>>> cee6586a8e06f4688613b92c007c2c6d1c34aae0
+=======
+=======
+
+        jaguar.datos();
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+=======
+>>>>>>> 0265cd425246bb58558ededaa903954530b52490
+>>>>>>> 39a45fabd08f7482d052d010cab2f897df6a73c3
         jaguar.datos(); 
         
         Cebra cebra = new Cebra ("Esqueleto Vertebral",7,"Macho","juegan");
@@ -62,7 +127,13 @@ public class ReinoAnimal {
         cebra.Anecdota();
   
 
+<<<<<<< HEAD
+
+=======
 >>>>>>> 2186f2ae22ef88e308f0195f1f33ee4cb04caeec
+>>>>>>> 698fefc07f097967da50727308f0ef73e4d5c489
     }
     
-}
+     }
+    
+>>>>>>> 0265cd425246bb58558ededaa903954530b52490
