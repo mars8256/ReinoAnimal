@@ -22,6 +22,7 @@ public class ReinoAnimal {
         gato.Reproduccion();
         gato.Respiracion();
         gato.Anecdota();
+<<<<<<< HEAD
         
         System.out.println(" ");
         System.out.println("Armadillo");
@@ -32,6 +33,36 @@ public class ReinoAnimal {
         ar.Movimiento();
         ar.Anecdota();
         ar.Vivienda();
+=======
+
+        System.out.println(" ");
+        System.out.println("Hiena: ");
+        Hiena hiena = new Hiena("Esqueleto Feliformia", 330, "Macho", "Pulmones");
+        hiena.Alimentacion();
+        hiena.Comunicacion();
+        hiena.Movimiento();
+        hiena.Reproduccion();
+        hiena.Respiracion();
+        hiena.Anecdota();
+        hiena.Aspecto();
+        hiena.Risa();
+        
+
+        Jaguar jaguar=new Jaguar("Esqueleto felino",200,"Macho","Pulmonar","Mamalia","Carnivoro","Felidae","Felis","Felis Silvestris");
+        jaguar.alimentacion();
+        jaguar.habitat();
+        jaguar.estado();
+        jaguar.datocurioso();
+        jaguar.datos(); 
+        
+        Cebra cebra = new Cebra ("Esqueleto Vertebral",7,"Macho","juegan");
+        cebra.Alimentacion();
+        cebra.Juegan();
+        cebra.Comunicacion();
+        cebra.Anecdota();
+  
+
+>>>>>>> 2186f2ae22ef88e308f0195f1f33ee4cb04caeec
     }
     
 }
