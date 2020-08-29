@@ -50,6 +50,19 @@ public class ReinoAnimal {
         oso.Anecdota();
 =======
         
+        
+        canguro canguro = new canguro("Esqueleto Mamifero",240 ,"Macho","Pulmones");
+        canguro.Alimentacion();
+        canguro.Comunicacion();
+        canguro.Movimiento();
+        canguro.Reproduccion();
+        canguro.Respiracion();
+        canguro.Anecdota();
+        
+
+=======
+<<<<<<< HEAD
+        
         System.out.println(" ");
         System.out.println("Armadillo");
        
@@ -61,6 +74,7 @@ public class ReinoAnimal {
         ar.Vivienda();
 >>>>>>> 698fefc07f097967da50727308f0ef73e4d5c489
 =======
+>>>>>>> 698fefc07f097967da50727308f0ef73e4d5c489
 
         Gorila gorila = new Gorila ("Esqueleto",60,"macho","pulmones");
         gorila.Alimentacion();
@@ -97,6 +111,12 @@ public class ReinoAnimal {
 
         jaguar.datos();
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+=======
+>>>>>>> 0265cd425246bb58558ededaa903954530b52490
 >>>>>>> 39a45fabd08f7482d052d010cab2f897df6a73c3
         jaguar.datos(); 
         
