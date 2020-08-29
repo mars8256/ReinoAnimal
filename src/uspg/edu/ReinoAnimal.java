@@ -22,6 +22,7 @@ public class ReinoAnimal {
         gato.Reproduccion();
         gato.Respiracion();
         gato.Anecdota();
+<<<<<<< HEAD
         
         
         canguro canguro = new canguro("Esqueleto Mamifero",240 ,"Macho","Pulmones");
@@ -33,6 +34,20 @@ public class ReinoAnimal {
         canguro.Anecdota();
         
 
+=======
+<<<<<<< HEAD
+        
+        System.out.println(" ");
+        System.out.println("Armadillo");
+       
+        Armadillo ar = new Armadillo("Esqueleto armado",2,"Macho", "Pulmones", "Armi");
+        ar.Alimentacion();
+        ar.Comunicacion();
+        ar.Movimiento();
+        ar.Anecdota();
+        ar.Vivienda();
+=======
+>>>>>>> 698fefc07f097967da50727308f0ef73e4d5c489
 
         System.out.println(" ");
         System.out.println("Hiena: ");
@@ -65,7 +80,11 @@ public class ReinoAnimal {
         cebra.Anecdota();
   
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2186f2ae22ef88e308f0195f1f33ee4cb04caeec
+>>>>>>> 698fefc07f097967da50727308f0ef73e4d5c489
     }
     
 }
