@@ -45,6 +45,14 @@ public class ReinoAnimal {
 >>>>>>> 698fefc07f097967da50727308f0ef73e4d5c489
 =======
 
+        Gorila gorila = new Gorila ("Esqueleto",60,"macho","pulmones");
+        gorila.Alimentacion();
+        gorila.Comunicacion();
+        gorila.Movimiento();
+        gorila.peleas();
+        gorila.Anecdota();
+
+
         System.out.println(" ");
         System.out.println("Hiena: ");
         Hiena hiena = new Hiena("Esqueleto Feliformia", 330, "Macho", "Pulmones");
@@ -64,9 +72,15 @@ public class ReinoAnimal {
         jaguar.estado();
         jaguar.datocurioso();
 <<<<<<< HEAD
+<<<<<<< HEAD
         jaguar.datos();
 >>>>>>> cee6586a8e06f4688613b92c007c2c6d1c34aae0
 =======
+=======
+
+        jaguar.datos();
+
+>>>>>>> 39a45fabd08f7482d052d010cab2f897df6a73c3
         jaguar.datos(); 
         
         Cebra cebra = new Cebra ("Esqueleto Vertebral",7,"Macho","juegan");
@@ -76,6 +90,9 @@ public class ReinoAnimal {
         cebra.Anecdota();
   
 
+<<<<<<< HEAD
+
+=======
 >>>>>>> 2186f2ae22ef88e308f0195f1f33ee4cb04caeec
 >>>>>>> 698fefc07f097967da50727308f0ef73e4d5c489
     }
