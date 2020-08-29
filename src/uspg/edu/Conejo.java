@@ -26,7 +26,6 @@ public class Conejo extends Mamifero{
     
     
     
-    @Override
     public void Alimentacion() {
         System.out.println("vegetariano");
     }
@@ -34,12 +33,12 @@ public class Conejo extends Mamifero{
     /**
      *
      */
-    @Override
+    
     public void Comunicacion() {
         System.out.println("grrr, grrr");
     }
 
-    @Override
+    
     public void Movimiento() {
         System.out.println("Soy un digitigrado ya que camino directamente "
                 + "sobre los dedos de mis patitas");

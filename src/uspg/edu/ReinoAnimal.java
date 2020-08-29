@@ -21,7 +21,7 @@ public class ReinoAnimal {
         gato.Movimiento();
         gato.Reproduccion();
         gato.Respiracion();
-<<<<<<< HEAD
+
         gato.Anecdota();    
         
         
@@ -34,13 +34,12 @@ public class ReinoAnimal {
         conejo.Alimentacion();
         conejo.Movimiento();
         conejo.tipo_orejas();
-        }
+        
      
-    }
-=======
+    
+
         gato.Anecdota();
-<<<<<<< HEAD
-<<<<<<< HEAD
+
          
         Oso oso = new Oso("Esqueleto silvestre",210, "Macho","Pulmones");
         oso.Alimentacion();
@@ -48,7 +47,7 @@ public class ReinoAnimal {
         oso.Movimiento();
         oso.Produccion();
         oso.Anecdota();
-=======
+
         
         
         canguro canguro = new canguro("Esqueleto Mamifero",240 ,"Macho","Pulmones");
@@ -60,8 +59,7 @@ public class ReinoAnimal {
         canguro.Anecdota();
         
 
-=======
-<<<<<<< HEAD
+
         
         System.out.println(" ");
         System.out.println("Armadillo");
@@ -72,9 +70,7 @@ public class ReinoAnimal {
         ar.Movimiento();
         ar.Anecdota();
         ar.Vivienda();
->>>>>>> 698fefc07f097967da50727308f0ef73e4d5c489
-=======
->>>>>>> 698fefc07f097967da50727308f0ef73e4d5c489
+
 
         Gorila gorila = new Gorila ("Esqueleto",60,"macho","pulmones");
         gorila.Alimentacion();
@@ -102,22 +98,14 @@ public class ReinoAnimal {
         jaguar.habitat();
         jaguar.estado();
         jaguar.datocurioso();
-<<<<<<< HEAD
-<<<<<<< HEAD
-        jaguar.datos();
->>>>>>> cee6586a8e06f4688613b92c007c2c6d1c34aae0
-=======
-=======
 
         jaguar.datos();
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-=======
->>>>>>> 0265cd425246bb58558ededaa903954530b52490
->>>>>>> 39a45fabd08f7482d052d010cab2f897df6a73c3
+        jaguar.datos();
+
+
+
         jaguar.datos(); 
         
         Cebra cebra = new Cebra ("Esqueleto Vertebral",7,"Macho","juegan");
@@ -125,15 +113,16 @@ public class ReinoAnimal {
         cebra.Juegan();
         cebra.Comunicacion();
         cebra.Anecdota();
+        
+        Caballo caballo=new Caballo("Esqueleto felino",300,"Macho","Pulmonar","Animalia","Hervivoro","Equidae","Equus","E. Ferus");
+        caballo.Anecdota();
+        caballo.Raza();
+        caballo.Color();
   
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 2186f2ae22ef88e308f0195f1f33ee4cb04caeec
->>>>>>> 698fefc07f097967da50727308f0ef73e4d5c489
     }
     
      }
     
->>>>>>> 0265cd425246bb58558ededaa903954530b52490
+

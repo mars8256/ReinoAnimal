@@ -25,17 +25,17 @@ public class Armadillo extends Mamifero {
    
     
     
-    @Override
+    
     public void Alimentacion() {
         System.out.println("Como lombrices y muchas otas cosas");
     }
 
-    @Override
+    
     public void Comunicacion() {
         System.out.println("Me comunico con un lenguje muy especial");
     }
 
-    @Override
+ 
     public void Movimiento() {
         System.out.println("Uno de mis movimientos es haceme una "
                 + "bolita para confundir a mis amenasas");
