@@ -22,6 +22,16 @@ public class ReinoAnimal {
         gato.Reproduccion();
         gato.Respiracion();
         gato.Anecdota();
+        
+        System.out.println(" ");
+        System.out.println("Armadillo");
+       
+        Armadillo ar = new Armadillo("Esqueleto armado",2,"Macho", "Pulmones", "Armi");
+        ar.Alimentacion();
+        ar.Comunicacion();
+        ar.Movimiento();
+        ar.Anecdota();
+        ar.Vivienda();
     }
     
 }
