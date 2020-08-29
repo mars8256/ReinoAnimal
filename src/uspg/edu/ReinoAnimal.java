@@ -22,6 +22,14 @@ public class ReinoAnimal {
         gato.Reproduccion();
         gato.Respiracion();
         gato.Anecdota();
+         
+        Oso oso = new Oso("Esqueleto silvestre",210, "Macho","Pulmones");
+        oso.Alimentacion();
+        oso.Comunicacion();
+        oso.Movimiento();
+        oso.Produccion();
+        oso.Anecdota();
     }
     
-}
+     }
+    
