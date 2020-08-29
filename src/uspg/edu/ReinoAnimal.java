@@ -22,6 +22,14 @@ public class ReinoAnimal {
         gato.Reproduccion();
         gato.Respiracion();
         gato.Anecdota();
+        
+        
+        Jaguar jaguar=new Jaguar("Esqueleto felino",200,"Macho","Pulmonar","Mamalia","Carnivoro","Felidae","Felis","Felis Silvestris");
+        jaguar.alimentacion();
+        jaguar.habitat();
+        jaguar.estado();
+        jaguar.datocurioso();
+        jaguar.datos(); 
     }
     
 }
