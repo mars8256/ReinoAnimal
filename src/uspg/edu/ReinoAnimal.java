@@ -21,7 +21,18 @@ public class ReinoAnimal {
         gato.Movimiento();
         gato.Reproduccion();
         gato.Respiracion();
-        gato.Anecdota();
+        gato.Anecdota();    
+        
+        
+
+  
+
+        System.out.println(" ");
+        System.out.println("conejo");
+        Conejo conejo = new Conejo("vegetariano", 340, "salto", "pulmones");
+        conejo.Alimentacion();
+        conejo.Movimiento();
+        conejo.tipo_orejas();
+        }
+     
     }
-    
-}
