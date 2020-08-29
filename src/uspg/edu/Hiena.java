@@ -55,7 +55,7 @@ public class Hiena extends Mamifero {
         System.out.println("Las hienas manchadas femeninas son más musculosas y más agresivas que sus homólogos masculinos, "
                 + "ademas que poseen un pseudo-pene");
         System.out.println("Las poderosas mandíbulas y tracto digestivo de la hiena le permiten procesar y obtener los nutrientes de la piel y los huesos. Las únicas partes de"
-                + " la presa no son completamente digeridas son el pelo, cuernos y pezuñas; estos son regurgitados en forma de pellets");
+                + " la presa no son completamente digeridas son el pelo, cuernos y pezuñas; estos son regurgitados en forma de pellets.");
         System.out.println("------------------------------------------------------------------------");
     }
 }
