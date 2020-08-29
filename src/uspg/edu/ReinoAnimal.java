@@ -22,6 +22,16 @@ public class ReinoAnimal {
         gato.Reproduccion();
         gato.Respiracion();
         gato.Anecdota();
+        
+        /*
+        Hiena hiena = new Hiena();
+        hiena.Alimentacion();
+        hiena.Comunicacion();
+        hiena.Movimiento();
+        hiena.Reproduccion();
+        hiena.Respiracion();
+        hiena.Anecdota();
+        */
     }
     
 }
