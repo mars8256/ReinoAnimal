@@ -18,17 +18,17 @@ public class Gorila  extends Mamifero {
     
     
     
-    @Override
+    
     public void Alimentacion() {
         System.out.println("vegetariano");
     }
 
-    @Override
+    
     public void Comunicacion() {
         System.out.println("gugu, gugu.");
     }
 
-    @Override
+    
     public void Movimiento() {
         System.out.println("Camino y aveces me valanceo en las ramas de los armoles");
     }
