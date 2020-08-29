@@ -7,17 +7,17 @@ package uspg.edu;
 
 /**
  *
- * @author morozco
+ * @author Mercedes Mendoza
  */
-public class Gato extends Mamifero {
+public class Conejo extends Mamifero{
 
-    public Gato(String esqueleto, int vertebras, String sexo, String tipo_respiracion) {
+    public Conejo (String esqueleto, int vertebras, String sexo, String tipo_respiracion) {
         super(esqueleto, 
                 vertebras, 
                 sexo, 
                 tipo_respiracion, 
                 "Mamalia", 
-                "Carnivoro", 
+                "vegetariano", 
                 "Felidae", 
                 "Felis", 
                 "Felis Silvestris");
@@ -26,34 +26,41 @@ public class Gato extends Mamifero {
     
     
     
-    
     public void Alimentacion() {
-        System.out.println("Soy carivoro");
+        System.out.println("vegetariano");
     }
 
-  
+    /**
+     *
+     */
+    
     public void Comunicacion() {
-        System.out.println("Miau, Miau");
+        System.out.println("grrr, grrr");
     }
 
-   
+    
     public void Movimiento() {
         System.out.println("Soy un digitigrado ya que camino directamente "
                 + "sobre los dedos de mis patitas");
     }
     
-    public void Ronronea(){
-        System.out.println("Grrrr miau! Grrrr miau!");
+    /**
+     *
+     */
+    public void tipo_orejas (){
+        System.out.println("largas y peludas + cortas");
     }
     
     public void Anecdota(){
         System.out.println("*******Anecdota********");
-        System.out.println("Aunque el perro puede parecer el animal doméstico por excelencia, \n" +
-        "el gato convive con el ser humano desde hace más de 9 mil años. \n" +
-        "Tienen una gran destreza,gracias a la flexibilidad de sus patas, \n" +
-        "la utilización de su cola y su “reflejo de enderezamiento” \n" +
-        "que les permite girar su cuerpo en el aire \n" +
-        "cuando caen y así caer siempre sobre sus patas ");
+        System.out.println("Son animales de distintos tamaños de oreja colores y pelaje, \n" +
+        "Viven en grupos llamados madrigueras. \n" +
+        "Crecen un máximo de cutro pies de largo, \n" +
+        "Se reproducen a extensas velocidades” \n" +
+        "Su expectativa de vida suele rondas los 10 años \n" +
+        "Sus crías se llaman gazapos  \n" +
+        "Su depredador natural son los coyotes, zorros y los gatosa salvajes" );
         System.out.println("**************************************************");
     }
 }
+

@@ -7,11 +7,11 @@ package uspg.edu;
 
 /**
  *
- * @author morozco
+ * @author Mercedes Mendoza
  */
-public class Gato extends Mamifero {
+public class Loba extends Mamifero {
 
-    public Gato(String esqueleto, int vertebras, String sexo, String tipo_respiracion) {
+    public Loba (String esqueleto, int vertebras, String sexo, String tipo_respiracion) {
         super(esqueleto, 
                 vertebras, 
                 sexo, 
@@ -33,7 +33,7 @@ public class Gato extends Mamifero {
 
   
     public void Comunicacion() {
-        System.out.println("Miau, Miau");
+        System.out.println("Ahoooo, Ahooo");
     }
 
    
@@ -43,17 +43,18 @@ public class Gato extends Mamifero {
     }
     
     public void Ronronea(){
-        System.out.println("Grrrr miau! Grrrr miau!");
+        System.out.println("Grrrr ahooo! Grrrr ahoooo!");
     }
     
     public void Anecdota(){
         System.out.println("*******Anecdota********");
-        System.out.println("Aunque el perro puede parecer el animal doméstico por excelencia, \n" +
-        "el gato convive con el ser humano desde hace más de 9 mil años. \n" +
-        "Tienen una gran destreza,gracias a la flexibilidad de sus patas, \n" +
-        "la utilización de su cola y su “reflejo de enderezamiento” \n" +
-        "que les permite girar su cuerpo en el aire \n" +
-        "cuando caen y así caer siempre sobre sus patas ");
+        System.out.println("Los lobos son sumamente unidos, \n" +
+        "son criaturas indomables. \n" +
+        "el jefe de la manada cuida a todos desde atrás, \n" +
+        "su olfato es 100 veces mejor que el de un humano” \n" +
+        "se aparean entre enero y abril \n" +
+        "recorre distancias entre 50 y 120 km en 8 horas ");
         System.out.println("**************************************************");
     }
 }
+  
