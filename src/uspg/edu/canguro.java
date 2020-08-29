@@ -26,17 +26,17 @@ public class canguro extends Mamifero {
     
     
     
-    @Override
+    
     public void Alimentacion() {
         System.out.println("Soy Herbivoro");
     }
 
-    @Override
+    
     public void Comunicacion() {
         System.out.println("me comunico con chasquidos.");
     }
 
-    @Override
+   
     public void Movimiento() {
         System.out.println("Soy un pentapodo  ya que camino con cinco patas "
                 + "utilizo la cola como una pata mas");

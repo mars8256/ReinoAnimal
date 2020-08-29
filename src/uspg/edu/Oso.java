@@ -22,17 +22,17 @@ public class Oso extends Mamifero{
                 "Ursidae Silvestris");
     }
     
-    @Override
+    
     public void Alimentacion() {
         System.out.println("me gusta el pezcado");
     }
 
-    @Override
+    
     public void Comunicacion() {
         System.out.println("mis patas y gruñido, grerrrr");
     }
 
-    @Override
+    
     public void Movimiento() {
         System.out.println("soy Silecioso cuando atrapo pescados "
                 + "mis uñas son desgaradoras");
