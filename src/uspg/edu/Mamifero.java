@@ -22,12 +22,12 @@ public abstract class Mamifero extends Vertebrado {
                 
     }
 
-    @Override
+ 
     public void Reproduccion() {
         System.out.println("La mayoría somos vivíparos");
     }
 
-    @Override
+  
     public void Respiracion() {
         System.out.println("Respiro por medio de mis pulmones");
     }

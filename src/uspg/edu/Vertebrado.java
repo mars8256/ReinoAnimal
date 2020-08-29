@@ -65,7 +65,9 @@ public abstract class Vertebrado extends Animal {
         this.tipo_respiracion = tipo_respiracion;
     }
     
-    
+    public void datos(){
+        System.out.println(getEsqueleto()+"-"+getVertebras()+"-"+getSexo()+"-"+getTipo_respiracion());
+    }
     
 
     
