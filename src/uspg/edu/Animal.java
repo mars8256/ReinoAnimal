@@ -93,15 +93,10 @@ public abstract class Animal {
     public void setEspecie(String especie) {
         this.especie = especie;
     }
-    
-    public abstract void Alimentacion();
-    public abstract void Comunicacion();
-    public abstract void Movimiento();
-    public abstract void Reproduccion();
-    public abstract void Respiracion();
-    
-    
-    
 }
+    
+    
+  
+
  
 

@@ -19,17 +19,17 @@ public class Hiena extends Mamifero {
     
     
     
-    @Override
+   
     public void Alimentacion() {
         System.out.println("Soy un carroñero oportunista");
     }
 
-    @Override
+    
     public void Comunicacion() {
         System.out.println("ruidos específicos, posturas y señales");
     }
 
-    @Override
+   
     public void Movimiento() {
         System.out.println("Camino directamente de mis cuatro patas, sin utilizar ningún otro metodo para"
                 + "transportarme y llegar a mi destino");
@@ -53,7 +53,7 @@ public class Hiena extends Mamifero {
                 + "ser más inteligentes que los chimpancés");
         System.out.println("Las hienas solo cazan por manada, de esa manera se le es más fácil acorralar a su presa");
         System.out.println("Las hienas manchadas femeninas son más musculosas y más agresivas que sus homólogos masculinos, "
-                + "ademas que poseen un pseudo-pene");
+                + "ademas que poseen un pseudo-pene.");
         System.out.println("Las poderosas mandíbulas y tracto digestivo de la hiena le permiten procesar y obtener los nutrientes de la piel y los huesos. Las únicas partes de"
                 + " la presa no son completamente digeridas son el pelo, cuernos y pezuñas; estos son regurgitados en forma de pellets.");
         System.out.println("------------------------------------------------------------------------");
