@@ -15,7 +15,7 @@ public class ReinoAnimal {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-<<<<<<< HEAD
+
          elefante  elefante = new  elefante("Esqueleto Elefantesco",240,"Macho","Pulmones");
          elefante.Alimentacion();
          elefante.Comunicacion();
@@ -23,7 +23,7 @@ public class ReinoAnimal {
          elefante.Reproduccion();
          elefante.Respiracion();
          elefante.Anecdota();
-=======
+
         Gato gato = new Gato("Esqueleto Felino",240,"Macho","Pulmones");
         gato.Alimentacion();
         gato.Comunicacion();
@@ -139,13 +139,20 @@ public class ReinoAnimal {
         caballo.Anecdota();
         caballo.Raza();
         caballo.Color();
+        
+        Perro perro=new Perro("Esqueleto vertebral",7,"Macho","Pulmonar","Animalia","carnivoro","canidae","canis","c,lupus");
+        perro.Alimentacion();
+        perro.Anecdota();
+        perro.Comunicacion();
+        perro.Ladra();
+        perro.Movimiento();
   
 
 
->>>>>>> aa54509dc84afcd30918ba7152aa05a9ed7a41dd
-    }
+
     
      }
+}
     
 
 

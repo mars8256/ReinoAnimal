@@ -26,17 +26,17 @@ public class elefante extends Mamifero {
     
     
     
-    @Override
+    
     public void Alimentacion() {
         System.out.println("Soy hervivoro");
     }
 
-    @Override
+   
     public void Comunicacion() {
         System.out.println("frrrr, frrrr");
     }
 
-    @Override
+    
     public void Movimiento() {
         System.out.println("Soy un snimsl muy grande que me muevo muy rapido"
                 + "sobre mis patas grandes y agiles");
