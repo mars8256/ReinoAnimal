@@ -12,8 +12,8 @@ package uspg.edu;
 public class Hiena extends Mamifero {
 
     public Hiena(String esqueleto, int vertebras, String sexo, String tipo_respiracion) {
-        super(esqueleto, vertebras, sexo, tipo_respiracion, "Mamalia", "Carnivoro", "Felidae",  
-                "Felis", "Felis Silvestris");
+        super(esqueleto, vertebras, sexo, tipo_respiracion, "Mamalia", "Carnivoro", "Feliformia",  
+                "Hyaenidae", "Hiénidos ");
     }
 
     
@@ -44,14 +44,18 @@ public class Hiena extends Mamifero {
     }
     
     public void Anecdota(){
-        System.out.println("*******Anecdota********");
-        System.out.println("Aunque el perro puede parecer el animal doméstico por excelencia, \n" +
-        "el gato convive con el ser humano desde hace más de 9 mil años. \n" +
-        "Tienen una gran destreza,gracias a la flexibilidad de sus patas, \n" +
-        "la utilización de su cola y su “reflejo de enderezamiento” \n" +
-        "que les permite girar su cuerpo en el aire \n" +
-        "cuando caen y así caer siempre sobre sus patas ");
-        System.out.println("**************************************************");
+        System.out.println("------------------------------------------------------------------------");
+        System.out.println("---------Datos Curiosos---------");
+        System.out.println("Las hienas no es que se esten riendo, si no es que el sonido chillón que emiten indica que están nerviosas, lo hacen cuando se"
+                + " sienten amenazadas, en peligro, o cuando un congénere quiere quitarle la comida que tanto le ha costado conseguir.");
+        System.out.println("Aunque no lo aparentan son criaturas inteligentes, incluso se puede decir que pueden"
+                + "ser más inteligentes que los chimpancés");
+        System.out.println("Las hienas solo cazan por manada, de esa manera se le es más fácil acorralar a su presa");
+        System.out.println("Las hienas manchadas femeninas son más musculosas y más agresivas que sus homólogos masculinos, "
+                + "ademas que poseen un pseudo-pene");
+        System.out.println("Las poderosas mandíbulas y tracto digestivo de la hiena le permiten procesar y obtener los nutrientes de la piel y los huesos. Las únicas partes de"
+                + " la presa no son completamente digeridas son el pelo, cuernos y pezuñas; estos son regurgitados en forma de pellets");
+        System.out.println("------------------------------------------------------------------------");
     }
 }
 
