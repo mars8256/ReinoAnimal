@@ -23,6 +23,15 @@ public class ReinoAnimal {
         gato.Respiracion();
         gato.Anecdota();
 <<<<<<< HEAD
+<<<<<<< HEAD
+         
+        Oso oso = new Oso("Esqueleto silvestre",210, "Macho","Pulmones");
+        oso.Alimentacion();
+        oso.Comunicacion();
+        oso.Movimiento();
+        oso.Produccion();
+        oso.Anecdota();
+=======
         
         
         canguro canguro = new canguro("Esqueleto Mamifero",240 ,"Macho","Pulmones");
@@ -46,6 +55,7 @@ public class ReinoAnimal {
         ar.Movimiento();
         ar.Anecdota();
         ar.Vivienda();
+>>>>>>> 698fefc07f097967da50727308f0ef73e4d5c489
 =======
 >>>>>>> 698fefc07f097967da50727308f0ef73e4d5c489
 
@@ -75,12 +85,21 @@ public class ReinoAnimal {
         jaguar.habitat();
         jaguar.estado();
         jaguar.datocurioso();
+<<<<<<< HEAD
+<<<<<<< HEAD
+        jaguar.datos();
+>>>>>>> cee6586a8e06f4688613b92c007c2c6d1c34aae0
+=======
+=======
 
         jaguar.datos();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> 0265cd425246bb58558ededaa903954530b52490
 >>>>>>> 39a45fabd08f7482d052d010cab2f897df6a73c3
         jaguar.datos(); 
         
@@ -98,4 +117,5 @@ public class ReinoAnimal {
 >>>>>>> 698fefc07f097967da50727308f0ef73e4d5c489
     }
     
-}
+     }
+    
