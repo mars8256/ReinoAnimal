@@ -21,6 +21,7 @@ public class ReinoAnimal {
         gato.Movimiento();
         gato.Reproduccion();
         gato.Respiracion();
+        gato.Anecdota();
     }
     
 }

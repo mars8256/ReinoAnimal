@@ -46,4 +46,14 @@ public class Gato extends Mamifero {
         System.out.println("Grrrr miau! Grrrr miau!");
     }
     
+    public void Anecdota(){
+        System.out.println("*******Anecdota********");
+        System.out.println("Aunque el perro puede parecer el animal doméstico por excelencia, \n" +
+        "el gato convive con el ser humano desde hace más de 9 mil años. \n" +
+        "Tienen una gran destreza,gracias a la flexibilidad de sus patas, \n" +
+        "la utilización de su cola y su “reflejo de enderezamiento” \n" +
+        "que les permite girar su cuerpo en el aire \n" +
+        "cuando caen y así caer siempre sobre sus patas ");
+        System.out.println("**************************************************");
+    }
 }
