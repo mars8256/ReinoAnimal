@@ -22,6 +22,15 @@ public class ReinoAnimal {
         gato.Reproduccion();
         gato.Respiracion();
         gato.Anecdota();
+        
+        canguro canguro = new canguro("Esqueleto Mamifero",240 ,"Macho","Pulmones");
+        canguro.Alimentacion();
+        canguro.Comunicacion();
+        canguro.Movimiento();
+        canguro.Reproduccion();
+        canguro.Respiracion();
+        canguro.Anecdota();
+        
     }
     
 }
