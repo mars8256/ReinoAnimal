@@ -33,7 +33,7 @@ public class canguro extends Mamifero {
 
     @Override
     public void Comunicacion() {
-        System.out.println("me comunico con chasquidos");
+        System.out.println("me comunico con chasquidos.");
     }
 
     @Override
