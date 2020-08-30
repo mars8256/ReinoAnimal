@@ -155,6 +155,12 @@ public class ReinoAnimal {
         zorro.Anecdota();
         zorro.correr();
         
+        Puma puma=new Puma ("esqueletos ",9, "masculino", "por medio de nariz","no tan peludo", "tengo un orden por para cazar","manada", "macho", "mamifero");
+        puma.Alimentacion();
+        puma.Comunicacion();
+        puma.Movimiento();
+        puma.cazar();
+        puma.Anecdota();
   
 
 
