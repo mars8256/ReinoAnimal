@@ -146,6 +146,15 @@ public class ReinoAnimal {
         perro.Comunicacion();
         perro.Ladra();
         perro.Movimiento();
+        
+        
+        Zorro zorro=new Zorro("huesos",10, "masculino", "por medio de nariz y pulmones","peludo", "tengo un orden por donde camina","manada", "macho", "mamifero");
+        zorro.Alimentacion();
+        zorro.Comunicacion();
+        zorro.Movimiento();
+        zorro.Anecdota();
+        zorro.correr();
+        
   
 
 
