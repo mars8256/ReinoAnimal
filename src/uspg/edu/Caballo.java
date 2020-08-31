@@ -16,12 +16,12 @@ public class Caballo extends Mamifero {
     }
     
     public void Anecdota(){
-        System.out.println("Los caballos son uno de los medios de transporte animal más usado por la humanida\n"+"pero en la actualidad son usados para otros trabajos");
+        System.out.println("Los caballos han sido un medio de transporte para la humanidad desde tiempos remotos, su uso fue en tiempo antiguos para comercio como hasta guerras y luego en epocas para mensajería. Actualmente se usan para hobbys en carreras de caballos\n"+"pero en la actualidad son usados para otros trabajos");
     }
     public void Raza(){
-        System.out.println("Pura Sangre");
+        System.out.println("Caballo Canadiense");
     }
     public void Color(){
-        System.out.println("Negro con manchas blancas");
+        System.out.println("Blanco");
     }
 }
